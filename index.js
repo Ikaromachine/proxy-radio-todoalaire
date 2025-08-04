@@ -3,7 +3,7 @@ const express = require("express");
 const request = require("request");
 const app = express();
 
-const ICECAST_URL = "http://190.225.170.89:8000/stream"; // Cambialo si tu stream es otro
+const ICECAST_URL = "http://190.225.170.175:8000/stream"; // Cambialo si tu stream es otro
 
 app.get("/", (req, res) => {
   res.send("Proxy HTTPS para Todo al Aire funcionando! Ruta: /radio");
